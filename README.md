@@ -1,2 +1,2 @@
 # Shrimp-Price-Forecasting
-Forecasting shrimp export prices using neural networks.
+This repository contains the code and data used to develop and evaluate deep learning models for forecasting Brazilian shrimp export prices. We tested multiple neural network architectures (Feed-Forward and LSTM), exploring different hyperparameter configurations and feature sets (wild-catch export price, farmed-shrimp wholesale price, and exchange rate). Model performance was assessed using the Mean Absolute Error (MAE) on a held-out test set to ensure generalization. Additionally, permutation-based feature importance was applied to provide insights into predictive accuracy and highlight the role of key economic drivers.
